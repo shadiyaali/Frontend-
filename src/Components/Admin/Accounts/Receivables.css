@@ -1,0 +1,253 @@
+.receivables-wrapper {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 24px;
+}
+  
+.receivables-title {
+    font-weight: 600;
+    color: #111111;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+    letter-spacing: 0px;
+    margin-bottom: 28px;
+}
+  
+ 
+.receivables-panel {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+  
+.receivables-subtitle {
+    font-size: 21px;
+    font-weight: 600;
+    color: #333333;
+    padding: 0px 20px 20px;
+    border-bottom: 1px solid #e0e0e0; 
+}
+  
+ 
+.receivables-table-wrapper {
+    overflow-x: auto;
+}
+
+.receivables-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+  
+.receivables-table th, 
+.receivables-table td {
+    padding: 5px 20px !important;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ 
+.receivables-table th:nth-child(1), 
+.receivables-table td:nth-child(1) {
+    width: 4%;  
+}
+
+.receivables-table th:nth-child(2), 
+.receivables-table td:nth-child(2) {
+    width: 40%; 
+}
+
+.receivables-table th:nth-child(3), 
+.receivables-table td:nth-child(3) {
+    width: 30%;  
+}
+
+.receivables-table th:nth-child(4), 
+.receivables-table td:nth-child(4) {
+    width: 15%;  
+}
+
+ 
+
+.receivables-table th.amount,
+.receivables-table td.amount {
+    width: 80%;  
+}
+ 
+ 
+
+.receivables-table th:nth-child(6), 
+.receivables-table td:nth-child(6) {
+    width: 10%;  
+}
+
+ 
+.receivables-table th {
+  
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    border-bottom: 1px solid #e5e7eb;
+}
+  
+.receivables-table td {
+ 
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e7eb;
+    color: black;
+}
+  
+ 
+.receivables-toggle {
+    position: relative;
+    display: block;  
+    width: 29px;
+    height: 17px;
+    margin: 0 6px;
+}
+  
+.receivables-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.receivables-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F36643;
+    transition: 0.4s;
+}
+  
+.receivables-slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+}
+  
+.receivables-toggle input:checked + .receivables-slider {
+    background-color: #F36643;
+}
+  
+.receivables-toggle input:checked + .receivables-slider:before {
+    transform: translateX(12px);
+}
+  
+.receivables-round {
+    border-radius: 20px;
+}
+  
+.receivables-round:before {
+    border-radius: 50%;
+}
+ 
+.receivables-icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin: 0px 8px;
+}
+
+.receivables-icon-btn img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+  
+.receivables-edit-btn img,
+.receivables-delete-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.receivables-icon-btn:hover {
+    opacity: 0.8;
+}
+  
+.receivables-edit-btn:hover img {
+    filter: brightness(0.8);
+}
+
+.receivables-delete-btn:hover img {
+    filter: brightness(0.8);
+}
+
+.receivables-payment-btn {
+    padding: 4px 12px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #3A4DE9;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #3A4DE9;  
+}
+  
+ 
+.receivables-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+   
+}
+  
+.receivables-page-info {
+    color: #6b7280;
+}
+  
+.receivables-page-controls {
+    display: flex;
+    gap: 8px;
+}
+  
+.receivables-page-btn {
+    padding: 4px 12px;
+    border-radius: 6px;
+    background-color: #EBEBEB;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    color: #6b7280;
+}
+  
+.receivables-page-btn:hover {
+    background-color: #EBEBEB;
+}
+  
+.receivables-page-btn.receivables-active {
+    background-color: #3A4DE9;
+    color: #ffffff;
+}
+
+ 
+
+.amount {
+    width: 65%;
+}
+.receivables-table th.edit-column {
+    text-align: center;
+}
+
+.receivables-table th.deletes {
+    text-align: center;
+}

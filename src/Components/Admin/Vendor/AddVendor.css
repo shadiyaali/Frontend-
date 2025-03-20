@@ -1,0 +1,217 @@
+.form-wrapper-vendor *,
+.form-wrapper-vendor *::before,
+.form-wrapper-vendor *::after {
+  box-sizing: border-box;
+}
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .add-vendorss-wrapper {
+    margin-bottom: 8px;
+    padding: 20px;
+  }
+  
+  .add-vendor-title-vendor {
+  
+    font-weight: 600;
+    color: #111111;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+    letter-spacing: 0px;
+    margin-bottom: 23px;
+
+  }
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  .form-wrapper-vendor{
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    
+    padding: 4px 20px;
+  
+    
+  }
+  
+  .section-vendor {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .section-title-vendor {
+   color: #111111;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26.46px;
+    letter-spacing: 0px;
+    margin-bottom: 23px;
+    
+  }
+  
+  .form-row-vendor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group-vendor {
+    flex: 0 0 50%;
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #111111;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    background-color: #fff;
+    width: 100%;
+    height: 49px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    outline: none;
+  }
+  
+  input::placeholder,
+  select::placeholder {
+    color: #aaa;
+  }
+  
+  .select-container-vendor {
+    position: relative;
+  }
+  
+  .select-container-vendor select {
+    appearance: none;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .select-container-vendor::after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #888;
+    pointer-events: none;
+  }
+  
+  .file-upload-container-vendor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .file-input-wrapper-vendor {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .file-text-input-vendor {
+    flex: 1;
+    padding-right: 40px !important;
+    cursor: default;
+  }
+  
+  .file-upload-button-vendor {
+    position: absolute;
+    right: 1px;  
+    bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;       
+    cursor: pointer;   
+  }
+  
+  .file-status-vendor {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111;
+    text-align: right;
+  }
+  
+  .subdomain-container-vendor {
+    position: relative;
+  }
+  
+  .subdomain-container-vendor input {
+    padding-right: 110px;
+  }
+  
+  .domain-suffix-vendor {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    font-weight: 500;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #111111;
+    pointer-events: none;
+  }
+  
+  .form-buttons-vendor {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .cancel-button-vendor, 
+  .submit-button-vendor {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    min-width: 274px;
+    height: 49px;
+  }
+  
+  .cancel-button-vendor {
+    background-color: #9e9e9e;
+    color: white;
+  }
+  
+  .submit-button-vendor {
+    background-color: #3A4DE9;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .form-group-vendor {
+      flex: 0 0 100%;
+    }
+  }

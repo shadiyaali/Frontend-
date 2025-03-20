@@ -1,0 +1,397 @@
+ 
+.temp-4-digital-card {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  background-color: white;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+   
+  margin-top: 10px;
+}
+
+ 
+.temp-4-digital-card-header {
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  padding: 92px 129px;
+  padding-bottom: 0px;
+ 
+}
+
+ 
+
+.img-logo{
+  width: 183px;
+  height: 183px;
+} 
+.temp-4-profile-info-overlay {
+  
+  text-align: center;              
+  width: 100%;
+  color: black;               
+}
+
+.temp-4-profile-name {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 600;
+  color: black;
+  padding-top: 10px;
+  
+}
+
+.temp-4-profile-position {
+ margin-bottom: 0px;
+  color: #767777;
+  margin-top: 0px;
+}
+
+ 
+.temp-4-company-logo-second {
+  display: flex; 
+  padding: 36px 20px; 
+  padding-bottom: 0px;
+  justify-content: center; 
+  align-items: center;  
+  text-align: center;
+}
+
+.temp-4-logo-container-second {
+  width: 178px;
+  height: 50px;
+  
+  border-radius: 10px;
+  display: flex;  
+  justify-content: center; 
+  align-items: center;  
+  text-align: center;
+}
+
+.temp-4-logooo-second {
+  width: 178px;
+  height: 50px;
+  padding: 0;  
+}
+
+
+.temp-4-social-icons-second {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+  padding: 22px 21px;
+  padding-bottom: 0px;
+  
+
+}
+
+.temp-4-icon-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+ 
+
+ 
+.temp-4-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px 0;
+  background-color: #111;
+}
+
+ 
+
+.temp-4-contact-info-section-second {
+  padding: 28px 16px;
+  padding-bottom: 0px;
+ 
+ 
+ 
+
+}
+.temp-4-contact-info-item-second img {
+  filter: invert(32%) sepia(83%) saturate(1173%) hue-rotate(307deg) brightness(88%) contrast(97%);
+}
+
+
+
+
+.temp-4-contact-get-second{
+  border: 1px solid #DFDFDF;
+  border-radius: 8px;
+}
+
+.temp-4-text-hoz-secondss {
+  color: #C63F7B;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: left;
+  padding: 32px 20px;
+  margin-bottom: 0px !important;
+  margin: 0px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #DFDFDF;
+ 
+
+}
+
+.temp-4-form-section{
+ 
+  padding: 28px 16px;
+  padding-bottom: 0px;
+  
+ 
+
+}
+.temp-4-get-in{
+  
+ border-radius: 8px;
+padding: 0px 20px;
+border: 1px solid #DFDFDF;
+}
+
+.temp-4-get-title{
+  color: #C63F7B;
+  font-size: 28px;
+  font-weight: 600;
+ text-align: left;
+ padding: 32px 20px;
+ margin-bottom: 0px !important;
+ margin: 0px;
+ padding-bottom: 28px;
+  
+}
+ 
+ 
+
+.temp-4-form-group {
+  margin-bottom: 16px;
+  padding: 0px;
+  
+}
+
+.temp-4-form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6E6E6E;
+  margin-bottom: 4px;
+}
+
+.temp-4-form-input {
+  width: 100%;
+  
+ padding-top: 20px;
+  border: 1px solid #DFDFDF; 
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.temp-4-form-textarea {
+  width: 100%;
+  background-color: white;
+  margin-top: 5px;
+  border: 1px solid #DFDFDF; 
+  
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  min-height: 80px;
+}
+
+.temp-4-submit-button {
+  width: 100%;
+  background-color: #C63F7B;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+   
+  margin-bottom: 33px;
+}
+
+
+
+.temp-4-contact-info-item-second {
+  
+  display: flex;
+  align-items: center;
+  gap: 20px;   
+  height: 37px;
+  margin-top: 28px;
+ 
+  
+}
+
+.temp-4-test{
+  padding: 8px 20px;
+  padding-bottom: 0px;
+ 
+ 
+
+}
+
+.temp-4-contact-text-second {
+  font-size: 18px;
+    color: #6E6E6E;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+    
+}
+
+
+.temp-4-button-group {
+  display: flex;
+  padding: 32px 22px;
+  height: 52px;
+  gap: 14px;
+  padding-bottom: 36px;
+   
+}
+.temp-4-action-btn-share {
+
+  flex: 1;
+  width: 94px;
+ border: none;
+  border-radius: 6px;
+  padding: 18px 17px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #DFDFDF;
+  color: #C63F7B;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+ 
+  
+}
+.temp-4-button-group img {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(95%) saturate(2151%) hue-rotate(314deg) brightness(91%) contrast(87%);
+}
+.temp-4-contact-info-item-second img {
+  filter: invert(32%) sepia(83%) saturate(1173%) hue-rotate(307deg) brightness(88%) contrast(97%);
+}
+.temp-4-action-btn-down {
+  
+  flex: 2;
+  width: 94px;
+ border: none;
+  border-radius: 6px;
+  padding: 18px 17px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #DFDFDF;
+  color: #C63F7B;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.temp-4-action-btn-qr {
+  width: 94px;
+  border-radius: 6px;
+  padding: 18px 17px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #DFDFDF;
+  color: #C63F7B;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.temp-4-action-btn-qr:hover,.temp-4-action-btn-down:hover,.temp-4-action-btn-share:hover {
+  border: 1px solid #DFDFDF;
+  outline: none;  
+}
+
+
+.map-sectionss-tem {
+ 
+  padding: 28px 16px;
+  padding-bottom: 0px;
+
+}
+.temp-4-get-in-map {  
+  border-radius: 8px;
+  padding: 0px 20px;
+  border: 1px solid #DFDFDF;
+   
+}
+
+
+.map-title-temp-4 {
+  color: #C63F7B;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  padding: 28px 0;
+  padding-bottom: 0px;
+  margin: 0px;
+  
+}
+ 
+.map-images-temp-4{
+  width: 100%;
+  height: 100%;
+  margin-top: 28px;
+  
+   
+   
+}
+.map-containerss-temp {
+  width: 368px;
+  height: 318px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+.foot-temp-4 {
+  background-color: #C63F7B;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+  padding: 16px;  
+}
+
+.footer-temp-4 {
+  padding: 24px 0px;
+  padding-bottom: 0px;
+ 
+}
+ 
+ 

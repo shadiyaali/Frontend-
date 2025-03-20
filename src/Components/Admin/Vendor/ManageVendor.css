@@ -1,0 +1,282 @@
+.manage-vendor-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.page-title {
+  font-weight: 600;
+  color: #111111;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30.24px;
+  letter-spacing: 0px;
+  margin-bottom: 23px;
+}
+
+/* Card Styles */
+.vendor-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0; 
+}
+
+.vendor-list-title {
+  font-size: 21px;
+  font-weight: 600;
+  color: #333333;
+  padding: 0px 20px 20px;
+  border-bottom: 1px solid #e0e0e0; 
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+}
+
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;  /* Forces fixed column widths */
+}
+
+.vendor-table th, 
+.vendor-table td {
+  padding: 5px 20px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Set column widths in percentages (total must equal 100%) */
+.vendor-table th:nth-child(1),
+.vendor-table td:nth-child(1) {
+  width: 2.5%;   /* NO column */
+}
+
+.vendor-table th:nth-child(2),
+.vendor-table td:nth-child(2) {
+  width: 18%;  /* VENDOR NAME column */
+}
+
+.vendor-table th:nth-child(3),
+.vendor-table td:nth-child(3) {
+  width: 15%;  /* EMAIL column */
+}
+
+.vendor-table th:nth-child(4),
+.vendor-table td:nth-child(4) {
+  width: 10%;  /* COUNTRY column */
+}
+
+.vendor-table th:nth-child(5),
+.vendor-table td:nth-child(5) {
+  width: 10%;  /* STATUS column */
+}
+
+.vendor-table th:nth-child(6),
+.vendor-table td:nth-child(6) {
+  width: 5%;  /* BLOCK column */
+}
+
+.vendor-table th:nth-child(7),
+.vendor-table td:nth-child(7) {
+  width: 5%;  /* VIEW column */
+}
+
+.vendor-table th:nth-child(8),
+.vendor-table td:nth-child(8) {
+  width: 5%;  /* EDIT column */
+}
+
+.vendor-table th:nth-child(9),
+.vendor-table td:nth-child(9) {
+  width: 5%;  /* DELETE column */
+}
+
+.vendor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vendor-table th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.vendor-table td {
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e7eb;
+  color: black;
+}
+
+.heigg {
+  height: 48px !important;
+}
+
+/* Status Styles */
+.status-active {
+  color: #10b981;
+  font-weight: 500;
+}
+
+.status-block {
+  color: #F36643;
+  font-weight: 500;
+}
+
+/* Toggle Switch Styles */
+.toggle-switch-vendor {
+  position: relative;
+  display: block;  
+  width: 29px;
+  height: 17px;
+  margin: 0 6px;
+}
+
+.toggle-switch-vendor input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-v {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+/* Active slider (green) */
+.active-slider-v {
+  background-color: #10b981;
+}
+
+/* Blocked slider (red) */
+.blocked-slider-v {
+  background-color: #F36643;
+}
+
+.slider-v:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.toggle-switch-vendor input:checked + .slider-v:before {
+  transform: translateX(12px);
+}
+
+
+
+.slider-v.round-v {
+  border-radius: 20px;
+}
+
+.slider-v.round-v:before {
+  border-radius: 50%;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+.view-button, .edit-button, .delete-button {
+  border: none;
+  
+}
+
+.icon-buttonss {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.view-buttonv img,
+.edit-buttonv img,
+.delete-buttonv img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Pagination Styles */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.pagination-info {
+  color: #6b7280;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-button {
+  padding: 4px 12px;
+  border-radius: 6px;
+  background-color: #EBEBEB;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+.pagination-button:hover {
+  background-color: #EBEBEB;
+}
+
+.pagination-button.active {
+  background-color: #3A4DE9;
+  color: #ffffff;
+}
+
+.vendor-table th.edit-column,
+.vendor-table th.view-column,
+.vendor-table th.dele-column {
+  text-align: center;
+}
+
+td.vieww .view-button,
+td.eddt .edit-button,
+td.delee .delete-button {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Error state */
+.error {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+  color: #ef4444;
+}

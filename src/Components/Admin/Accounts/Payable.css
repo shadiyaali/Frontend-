@@ -1,0 +1,249 @@
+.payables-wrapper {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 24px;
+}
+  
+.payables-title {
+    font-weight: 600;
+    color: #111111;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.24px;
+    letter-spacing: 0px;
+    margin-bottom: 28px;
+}
+  
+ 
+.payables-panel {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+  
+.payables-subtitle {
+    font-size: 21px;
+    font-weight: 600;
+    color: #333333;
+    padding: 0px 20px 20px;
+    border-bottom: 1px solid #e0e0e0; 
+}
+  
+ 
+.payables-table-wrapper {
+    overflow-x: auto;
+}
+
+.payables-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+  
+.payables-table th, 
+.payables-table td {
+    padding: 5px 20px !important;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ 
+.payables-table th:nth-child(1), 
+.payables-table td:nth-child(1) {
+    width: 6%;  
+}
+
+.payables-table th:nth-child(2), 
+.payables-table td:nth-child(2) {
+    width: 40%; 
+}
+
+.payables-table th:nth-child(3), 
+.payables-table td:nth-child(3) {
+    width: 25%;  
+}
+
+ 
+.payables-table th:nth-child(4), 
+.payables-table td:nth-child(4) {
+    width: 10%;  
+}
+
+.payables-table th:nth-child(5), 
+.payables-table td:nth-child(5) {
+    width: 15%;  
+}
+
+ 
+.payables-table th {
+ 
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    border-bottom: 1px solid #e5e7eb;
+}
+  
+.payables-table td {
+ 
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e7eb;
+    color: black;
+}
+  
+ 
+.toggle-switch {
+    position: relative;
+    display: block;  
+    width: 29px;
+    height: 17px;
+    margin: 0 6px;
+}
+  
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F36643;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+  
+.toggle-switch input:checked + .slider {
+    background-color: #F36643;
+}
+  
+.toggle-switch input:checked + .slider:before {
+    transform: translateX(12px);
+}
+  
+.icon-buttonss {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin: 0px 8px;
+}
+
+.icon-buttonss img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+  
+.payables-edit-btn img,
+.delete-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-buttonss:hover {
+    opacity: 0.8;
+}
+  
+.payables-edit-btn:hover img {
+    filter: brightness(0.8);
+}
+
+.delete-button:hover img {
+    filter: brightness(0.8);
+}
+
+.payables-payment-btn {
+    padding: 4px 12px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #3A4DE9;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #3A4DE9;  
+}
+  
+ 
+.payables-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+   
+}
+  
+.payables-page-info {
+    color: #6b7280;
+}
+  
+.payables-page-controls {
+    display: flex;
+    gap: 8px;
+}
+  
+.payables-page-btn {
+    padding: 4px 12px;
+    border-radius: 6px;
+    background-color: #EBEBEB;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    color: #6b7280;
+}
+  
+.payables-page-btn:hover {
+    background-color: #EBEBEB;
+}
+  
+.payables-page-btn.payables-active {
+    background-color: #3A4DE9;
+    color: #ffffff;
+}
+
+.amount {
+    width: 65%;
+}
+.payables-table th.edit-column {
+    text-align: center;
+}
+
+.payables-table th.deletes {
+    text-align: center;
+}
+
+.heigg {
+    height: 50px;
+}
+
+.marrg {
+   margin-bottom:0px !important;
+}
+td.eddt .edit-button {
+    margin: 0 auto;
+    display: block;
+}

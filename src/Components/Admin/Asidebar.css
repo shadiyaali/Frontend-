@@ -1,0 +1,120 @@
+.nfc-sidebar {
+    width: 250px;
+    height: 100vh; 
+    overflow-y: auto;  
+    background-color: white;
+    border-right: 1px solid #E5E7EB;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+  
+  .sidebar-logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 38px;
+    position: relative;
+  }
+  .sidebar-logo::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    width: 233.25px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(224,225,226,0) 0%, #E0E1E2 49.52%, rgba(224,225,226,0.15625) 99.04%);
+  }
+  
+  .sidebar-dashboard {
+    padding: 16px 24px;
+    
+    margin-top: 30px;
+  }
+  
+  .dashboard-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #111111;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  
+  .menu-section {
+    margin-top: 10px;
+    padding: 18px 0px;
+    position: relative;
+  }
+
+  .menu-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 233.25px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(224,225,226,0) 0%, #E0E1E2 49.52%, rgba(224,225,226,0.15625) 99.04%);
+  }
+  
+  .menu-title {
+    color: #999999;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+    font-weight: 400;
+    text-align: left; 
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  
+  .menu-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px;
+    transition: background-color 0.2s;
+  }
+  
+  .menu-item-content:hover {
+    background-color: #F7F6FF;
+     
+  }
+  
+  .menu-item-content span {
+    color: #111111;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .chevron {
+    color: #999999;
+  }
+  
+  .submenu {
+    background-color: #F9FAFB;
+  }
+  
+  .submenu-item {
+    padding: 12px 24px 12px 48px;
+    color: #999999;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .submenu-item:hover {
+    background-color: #F7F6FF;
+  }
+
